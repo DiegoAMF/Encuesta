@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(146, 146, 146);
+    background-repeat: no-repeat;
+    background-clip: border-box;
+}
+
+h1{color: rgb(255, 255, 255);font-family: 'Zen Dots', cursive;font-size: 55px; text-align: center;margin-top: 60px; background-color: black;}
+
+h2{color: rgb(255, 255, 255);font-family: 'Zen Dots', cursive;font-size: 30px;}
+
+h3{color: rgb(255, 255, 255);font-family: 'Zen Dots', cursive;font-size: 20px; text-align:left}
+
+p{color: white; text-align: center; font-size: 16px;}
+
+label{color: white;}
+
+a{color:white;}
+
+*{
+    margin: 1;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-register{
+    width: 400px;
+    background: black;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+}
+
+.form-register a:hover{
+    color: rgb(77, 77, 77);
+    text-decoration: underline;
+}
+
+.control{
+    width: 100%;
+    background-color: rgb(77, 77, 77);
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid white
+}
+
+.submit{
+    border-radius: 5px;
+    background-color:rgb(255, 253, 253);
+    color: rgb(0, 0, 0);
+    width: 100%;
+    border: none;
+    padding: 12px;
+    margin: 10px;
+    font-size: 25px;
+}
